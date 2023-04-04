@@ -1,6 +1,6 @@
 import React from 'react';
-import Botao from '../button';
 import style from './form.module.scss';
+import Button from '../button';
 
 class Form extends React.Component {
     render() {
@@ -32,7 +32,7 @@ class Form extends React.Component {
                         required
                     />
                 </div>
-                <Botao />
+                <Button label='Adicionar'/>
             </form>
         )
     }
